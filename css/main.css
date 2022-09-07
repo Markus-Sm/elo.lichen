@@ -984,7 +984,7 @@ body {
 
 @media (min-width: 308px) {
   .events__card-info-text {
-    font-size: 1em;
+    font-size: .8em;
   }
   .card {
     margin: 0em 0em;
