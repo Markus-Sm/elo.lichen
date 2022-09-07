@@ -12,4 +12,13 @@ const handleNav = () => {
     })
 }
 
-navBtn.addEventListener('click', handleNav)
+const footerYear = document.querySelector('.footer-year')
+
+const handleCurrentYear = () => {
+	const year = (new Date).getFullYear();
+	footerYear.innerText = year;
+}
+
+navBtn.addEventListener('click', handleNav);
+
+handleCurrentYear();

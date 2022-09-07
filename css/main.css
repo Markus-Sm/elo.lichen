@@ -998,6 +998,44 @@ body {
   .card__footer {
     width: 20em;
   }
+
+  .events-contact__box {
+    top: 50%;
+    left: 70%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 100%;
+  }
+
+  .events-contact__box__form-text{
+    width: 70%;
+    margin-bottom: 1rem;
+    font-size: 1.2em;
+  }
+
+  .events-contact__box__title{
+    font-size: 2.5rem;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    justify-self: start;
+  }
+
+  .events-contact__box__form-submit{
+    width: 70%;
+    margin-left: 0;
+  }
+
+  .events-contact__box__form__agreement label{
+    display: block;
+    width: 70%;
+    font-size: 1.2rem;
+  }
+
+  .events-contact__box__form-2{
+    display: flex;
+    justify-content: start;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1071,6 +1109,39 @@ body {
     margin: 1em;
     width: 45%;
   }
+
+  .events-contact__box {
+    top: 50%;
+    left: 70%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 60%;
+  }
+
+  .events-contact__box__form-text{
+    width: 70%;
+    margin-bottom: 1rem;
+    font-size: 1.2em;
+  }
+
+  .events-contact__box__title{
+    font-size: 3rem;
+  }
+
+  .events-contact__box {
+    top: 50%;
+    left: 70%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 80%;
+  }
+
+  .events-contact__box__form-text{
+    width: 70%;
+    margin-bottom: 1rem;
+    font-size: 1.2em;
+  }
+  
 }
 
 @media (min-width: 992px) {
@@ -1179,9 +1250,27 @@ body {
         -ms-flex-pack: start;
             justify-content: start;
   }
-  .events-contact__box__form-text {
-    width: 18em;
+
+  .events-contact__box {
+    top: 50%;
+    left: 70%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 60%;
+  }
+
+  .events-contact__box__form-text{
+    width: 70%;
+    margin-bottom: 1rem;
     font-size: 1.2em;
+  }
+
+  .events-contact__box__title{
+    font-size: 3rem;
+  }
+
+  .events-contact__box__form__agreement label{
+    margin-top: .4rem;
   }
 }
 
@@ -1275,10 +1364,23 @@ body {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
+    width:50%;
   }
-  .events-contact__box__form-text {
-    width: 18em;
-    font-size: 1.2em;
+  .events-contact__box {
+    top: 50%;
+    left: 70%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 60%;
+  }
+
+  .events-contact__box__form-text{
+    width: 60%;
+    margin-bottom: 1rem;
+  }
+
+  .events-contact__box__form__agreement label{
+    margin-top: .4rem;
   }
   .card {
     margin: 0em 0em;
@@ -1318,11 +1420,22 @@ body {
 @media (min-width: 1400px) {
   .events-contact__box {
     top: 50%;
-    left: 70%;
+    left: 80%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-    width: 50%;
+    width: 60%;
   }
+
+  .events-contact__box__form-text{
+    width: 60%;
+    margin-bottom: 1rem;
+  }
+
+  .events-contact__box__form__agreement label{
+    margin-top: .4rem;
+  }
+
+
   .card {
     margin: 0em 0em;
   }
@@ -1337,7 +1450,7 @@ body {
   }
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1800px) {
   .card__img {
     width: 20em;
   }
@@ -1352,10 +1465,9 @@ body {
     left: 90%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-    width: 50%;
   }
   .events-contact__box {
-    width: 50%;
+    width: 80%;
   }
   .events-contact__box__form {
     -webkit-box-orient: horizontal;
@@ -1379,10 +1491,12 @@ body {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
+    width: 40%;
   }
   .events-contact__box__form-text {
     width: 18em;
     font-size: 1.2em;
+    margin-right: 1em;
   }
 }
 /*# sourceMappingURL=main.css.map */
